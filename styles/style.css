@@ -3,9 +3,23 @@ body    {
     background-color: #4010bb;
 }
 
+.directorioArtistas {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.subdirectorioArtistas  {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-weight: normal;
+}
+
 .tituloPrincipal    {
-text-align: center;
-font-size: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
 }
 
 .menuPrincipal  {
@@ -17,13 +31,13 @@ font-size: 30px;
     background-color: rgba(255, 255, 255, 0.555);
     font-family: Arial;
     text-align: center;
-    list-style: none;
+    list-style-type: none;
     font-weight: bold;
     line-height: 1.5;
 }
 
 .Articulo   {
-    margin:50px;
+    margin: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -32,8 +46,6 @@ font-size: 30px;
 }
 
 /* Articulos */
-
-
 .tituloArticulo   {
     font-family: Arial;
     font-size: 22px;
